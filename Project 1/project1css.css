@@ -1,0 +1,40 @@
+body{
+    background-image:linear-gradient(darkblue, grey);
+    font-family: 'Montserrat';
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.specs{
+    border-style:groove;
+    border-color: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+#intro{
+    margin: 20px;
+    padding:20px;
+    width: 400px;
+    height: 100px;
+    background-color: darkred;
+    color: white;
+    transition: width 2s;
+}
+
+#intro:hover{
+    width: 600px;
+}
+
+h2{
+    transform: skew(-25deg);
+}
+
+#footer{
+    border-style: groove;
+    border-color: black;
+    padding: 10px;
+    margin: 20px;
+}
