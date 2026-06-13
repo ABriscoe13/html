@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Mortgage Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="content">
+            <div class="header">
+                <h1>Mortgage Calculator</h1>
+            </div>
+            <div class="description">
+                <p>This is a simple mortgage calculator that allows you to calculate your monthly payment based on the principal, 
+                    yearly interest rate, and length of the mortgage in years.</p>
+            </div>
+            <div class="inputs">
+                <p>Enter your mortgage details to calculate the monthly payment. <br>
+                    Where P = Principal, r = Yearly Interest Rate, n = Length of Mortgage in Years.:
+                </p>
+                <form action="javascript:void(0)"
+                onsubmit="calculateMortgage()">
+                    <p>
+                        <label for="P">P:</label><input id="P"
+                        name="P" type="number" min=1 required>
+                    </p>
+                    <p>
+                        <label for="r">r:</label><input id="r"
+                        name="r" type="number" min=0 step=0.01 required>
+                    </p>
+                    <p>
+                        <label for="n">n:</label><input id="n"
+                        name="n" type="number" min=1 required>
+                    </p>
+                    <p>
+                        Monthly Payment: <span class="payment"></span>
+                    </p>
+                    <p>
+                        <input type="submit" value="Calculate">
+                    </p>
+                </form>
+                <script src="main.js"></script>
+            </div>
+            <div class="image">
+                <img src="House.jpg" alt="House Image" width="400">
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p id="footer">My <a href="https://github.com/ABriscoe13/html" target="_blank">repo</a></p>
+    </footer>
+</html>

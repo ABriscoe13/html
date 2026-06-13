@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(71, 68, 68); /* This makes it easy on the eyes */
+}
+
+.content{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.content div{
+    text-align: center;
+}
+
+.header{
+    grid-column: 1 / 7;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.description{
+    padding: 20px;
+}
+
+.inputs{
+    grid-column: 2 / span 4;
+    padding: 20px;
+}
+
+.image{
+    padding: 20px;
+    background-color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+}
