@@ -8,3 +8,5 @@ This website uses the following formula:
  Where P = Principal
  r = monthly rate as a decimal
  n = length of the mortgage in months
+
+ Link to sandbox environment: https://codesandbox.io/p/sandbox/5msjn8
